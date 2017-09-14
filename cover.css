@@ -1,0 +1,61 @@
+.flex-grow {
+  flex: 1;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  min-height: 100vh;
+}
+.header .buttons .btn {
+  margin: 0.65rem 0.65rem 0;
+}
+#example .example-container {
+  border-bottom: 1px solid #e7e7e7;
+}
+#example .carousel-indicators {
+  position: initial;
+}
+#example .carousel-indicators li.active {
+  background-color: rgba(0, 123, 255, 0.5) !important;
+}
+#example .sunlight-container {
+  margin: 2rem 1rem 1rem !important;
+}
+
+
+.nuget-tabs {
+  border-bottom: 0;
+  font-size: 0.75rem;
+}
+.nuget-tabs li {
+  background-color: #eaeaea;
+}
+.nuget-tabs li .nav-link {
+  padding: 0.4rem 0.8rem;
+  border: 0;
+  border-radius: 0;
+  color: #000;
+}
+.nuget-tabs li .nav-link.active {
+  background-color: #002440;
+  color: #fff;
+  text-decoration: underline;
+}
+.nuget-content {
+  background-color: #002440;
+  color: #fff;
+  font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+  line-height: 1.5;
+  border-style: solid;
+  border-color: #002440;
+  border-width: 1px 0 1px 1px;
+  padding: 8px 10px 8px 10px;
+  margin-top: 1px;
+  font-size: 0.8rem;
+}
+.nuget-content #net-cli span:before {
+  content: "> ";
+}
+.nuget-content #package-manager span:before {
+  content: "PM> ";
+}
